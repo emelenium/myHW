@@ -6,8 +6,11 @@ public class Main {
         Person vanya = new Person(184);
         vanya.say("Vany");
         System.out.println(vanya.height);
-        Person vlad = new Person(172,"VLAD");
-        System.out.println(vlad.name+"\'s height is "+vlad.height);
+        Person vlad = new Person(172, "VLAD");
+        System.out.println(vlad.name + "\'s height is " + vlad.height);
+        Student freshman = new Student(163,"Victory",1);
+        freshman.tell();
+
 
         Car car = new Volvo();
         car.Go();
